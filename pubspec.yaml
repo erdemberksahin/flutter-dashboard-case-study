@@ -1,0 +1,47 @@
+name: maglo_case_study_flutter
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  go_router: ^14.0.0
+  flutter_spinkit: ^5.2.0
+  fl_chart: ^0.66.2
+  intl: ^0.19.0
+  responsive_builder: ^0.4.2
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/promo.png
+    - assets/images/google_icon.png
+    - assets/images/maglo_logo.png
+    - assets/images/signin_underline.png
+    - assets/images/avatar_placeholder.png
+    - assets/icons/
+    - assets/avatars/
+  fonts:
+  - family: Inter
+    fonts:
+      - asset: assets/fonts/Inter-Regular.ttf
+        weight: 400
+      - asset: assets/fonts/Inter-Medium.ttf
+        weight: 500
+      - asset: assets/fonts/Inter-SemiBold.ttf
+        weight: 600
+      - asset: assets/fonts/Inter-Bold.ttf
+        weight: 700
+  
