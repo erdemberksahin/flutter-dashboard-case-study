@@ -1,62 +1,59 @@
 # 💳 Maglo Finance Dashboard – Flutter UI Case Study
 
-Bu proje, Figma'daki [NodeLab Case Study](https://www.figma.com/design/JuY4rTmTQtqx75xczmmObw/React-Dev-%C2%B7-Case-Study-NodeLab) tasarımı referans alınarak Flutter kullanılarak geliştirilmiş modern bir finans dashboard arayüzüdür.
+This project is a modern finance dashboard interface developed using Flutter, based on the [NodeLab Case Study](https://www.figma.com/design/JuY4rTmTQtqx75xczmmObw/React-Dev-%C2%B7-Case-Study-NodeLab) design on Figma.
 
+## 🎯 Purpose
 
-
-## 🎯 Amaç
-
-Bu çalışma, responsive ve pixel-perfect bir Flutter UI arayüzü geliştirme yeteneklerinin sergilendiği bir case study projesidir. Tasarım detaylarına bağlı kalınarak gerçeğe en yakın şekilde kodlanmıştır.
+This study is a case project that demonstrates the ability to develop a responsive and pixel-perfect Flutter UI. It has been coded to closely match the design details.
 
 ---
 
-## 🧩 Özellikler
+## 🧩 Features
 
-✅ Dashboard ana görünümü  
+✅ Dashboard main view  
 ✅ Overview Cards (Total Balance, Total Spending, Total Saved)  
 ✅ Working Capital Chart  
-✅ Recent Transactions listesi  
-✅ Wallet bölümünde iç içe iki katmanlı kart tasarımı  
-✅ Scheduled Transfers alanı avatarlarla birlikte  
-✅ Custom ikonlar: Chip, NFC, Mastercard (blur), Visa
+✅ Recent Transactions list  
+✅ Layered dual card design in the Wallet section  
+✅ Scheduled Transfers area with avatars  
+✅ Custom icons: Chip, NFC, Mastercard (blur), Visa
 
 ---
 
-## 📁 Klasör Yapısı
+## 📁 Folder Structure
 lib/
 ├── widgets/
-│ ├── overview_cards.dart
-│ ├── working_capital_chart.dart
-│ ├── recent_transactions.dart
-│ └── wallet_and_schedule.dart
+│   ├── overview_cards.dart
+│   ├── working_capital_chart.dart
+│   ├── recent_transactions.dart
+│   └── wallet_and_schedule.dart
 ├── main.dart
 assets/
 ├── icons/
-│ ├── chip.png
-│ ├── wifi.png
-│ ├── mastercard.png
-│ └── visa.png
+│   ├── chip.png
+│   ├── wifi.png
+│   ├── mastercard.png
+│   └── visa.png
 ├── avatars/
-│ └── 1.png ... 5.png
-
+│   └── 1.png ... 5.png
 
 ---
 
-## 🛠️ Kullanılan Teknolojiler
+## 🛠️ Technologies Used
 
 - Flutter 3.x  
 - Dart  
-- Stateless Widget yapısı  
-- Figma temelli UI uygulaması  
-- Custom UI bileşenleri ve Stack mimarisi
+- Stateless Widget structure  
+- Figma-based UI implementation  
+- Custom UI components and Stack layout
 
 ---
 
-## ▶️ Başlatmak için
+## ▶️ Getting Started
 
 ```bash
-git clone https://github.com/kullanici-adin/flutter-dashboard-case-study.git
+git clone https://github.com/erdemberksahin/flutter-dashboard-case-study.git
 cd flutter-dashboard-case-study
 flutter pub get
 flutter run
-
+```
